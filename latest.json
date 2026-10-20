@@ -1,11 +1,11 @@
 {
  "app": "SuzukiPDF",
- "version": "2.0.1",
+ "version": "2.0.2",
  "runtimeVersion": "44.5.1",
- "file": "SuzukiPDF-2.0.1.suzukipdf-update",
- "url": "https://raw.githubusercontent.com/phkdow/suzukipdf-updates/main/updates/SuzukiPDF-2.0.1.suzukipdf-update",
+ "file": "SuzukiPDF-2.0.2.suzukipdf-update",
+ "url": "https://raw.githubusercontent.com/phkdow/suzukipdf-updates/main/updates/SuzukiPDF-2.0.2.suzukipdf-update",
  "page": "https://github.com/phkdow/suzukipdf-updates/tree/main/setup",
- "size": 11150644,
- "sha256": "aa7d7f21bbbc989d4deae220aeecaf637102e76426fae1e1c8a3dbb7bb42f608",
- "notes": "・ホームの「選択」欄で、「手のひら」と「範囲コピー」を大きなボタンにしました。範囲コピーのアイコンはカメラにしました。「検索」はホームのリボンの右端に大きなボタンで置きました（窓を狭くしても最後まで大きいまま）。ホームの「付箋」は小さいボタンにしました。\n・左のサイドバーをたたむボタンを、「«」の文字からわかりやすいアイコンにして大きくしました。たたんだときの「開く」ボタンも同じです。\n・サイドバーの幅を変えるとき、ドラッグしている間もページのサムネイルの大きさがリアルタイムで変わるようにしました。サイドバーを細くすると、これまでより小さなサムネイルにできます。\n・ページを「上へ」「下へ」動かすボタンを、ページ欄に付けました（選んだページを1つずつ移動。複数ページはまとめて動きます）。ページの一覧で Ctrl+↑／↓ でも動かせます。Ctrl+Shift+↑／↓ で先頭・最後へ移動。右クリック、ページ欄の「…」、リボンの「ページ」→「並べ替え」からも使えます。"
+ "size": 11152184,
+ "sha256": "13d4ae5a6349b65d3f396d820e4923d7ccda0d72cd5d4bc047592f1af2bdb2c6",
+ "notes": "・PDF を開いてからページが表示されるまでを速くしました。地図や図面のような重い PDF で、待ち時間が3分の1ほどになります（開いた直後の「スキャンした PDF かどうか」の確認が重く、その間ページの表示が止まっていたのを直しました）。\n・検索・文字の選択・ハイライトなどで使う文字の位置の計算を、裏で別に動かすようにしました。重いページで検索している間も、ページの表示や保存などが止まりません。"
 }
