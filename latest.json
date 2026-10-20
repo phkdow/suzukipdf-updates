@@ -1,0 +1,11 @@
+{
+ "app": "SuzukiPDF",
+ "version": "2.0.0",
+ "runtimeVersion": "44.5.1",
+ "file": "SuzukiPDF-2.0.0.suzukipdf-update",
+ "url": "https://raw.githubusercontent.com/phkdow/suzukipdf-updates/main/updates/SuzukiPDF-2.0.0.suzukipdf-update",
+ "page": "https://github.com/phkdow/suzukipdf-updates/tree/main/setup",
+ "size": 11143691,
+ "sha256": "3ee83937b8cc9062bcd567fbcd13bbbdedc520b8b5a9af72d62541c4e2a5f212",
+ "notes": "・完成版です。アプリ全体を点検し、見つかった問題を直しました。\n・文字認識（OCR）したスキャン PDF で「文字の差し替え」をすると、元の文字の絵が残って新しい文字と重なっていたのを直しました（元の文字は紙の色で隠して、その上に新しい文字を置きます）。\n・Space を押しながらドラッグで画面を動かす機能が効いていなかったのを直しました。\n・アプリの名前を「Suzuki PDF Viewer」にしました（デスクトップ・スタートメニューのショートカットや、Windows の「アプリ」一覧の表示名も変わります。設定・マイスタンプ・デジタルIDはそのまま使えます）。\n・自動更新：起動したときと1日1回、新しいバージョンがないか確かめ、見つかればボタン1つで更新できます（「ヘルプ」→「更新を確認」でいつでも。設定で止めることもできます）。\n・起動したとき、PDF を開く既定のアプリが Suzuki PDF Viewer でなければ、既定にするか聞くようにしました。\n・保存まわりを強化しました：パスワード付き PDF の保存、保存中の失敗で元のファイルを壊さない、保存中のタブ切り替えや入力途中の文字の扱い、大きな文書でのメモリ、終了後に裏で動き続ける問題など。\n・英語の画面の訳を増やしました。\n・この説明書き（readme）を作り直しました。"
+}
