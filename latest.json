@@ -1,11 +1,11 @@
 {
  "app": "SuzukiPDF",
- "version": "2.0.2",
+ "version": "2.0.3",
  "runtimeVersion": "44.5.1",
- "file": "SuzukiPDF-2.0.2.suzukipdf-update",
- "url": "https://raw.githubusercontent.com/phkdow/suzukipdf-updates/main/updates/SuzukiPDF-2.0.2.suzukipdf-update",
+ "file": "SuzukiPDF-2.0.3.suzukipdf-update",
+ "url": "https://raw.githubusercontent.com/phkdow/suzukipdf-updates/main/updates/SuzukiPDF-2.0.3.suzukipdf-update",
  "page": "https://github.com/phkdow/suzukipdf-updates/tree/main/setup",
- "size": 11152184,
- "sha256": "13d4ae5a6349b65d3f396d820e4923d7ccda0d72cd5d4bc047592f1af2bdb2c6",
- "notes": "・PDF を開いてからページが表示されるまでを速くしました。地図や図面のような重い PDF で、待ち時間が3分の1ほどになります（開いた直後の「スキャンした PDF かどうか」の確認が重く、その間ページの表示が止まっていたのを直しました）。\n・検索・文字の選択・ハイライトなどで使う文字の位置の計算を、裏で別に動かすようにしました。重いページで検索している間も、ページの表示や保存などが止まりません。"
+ "size": 11155473,
+ "sha256": "8f6552f139ed6ffe7c519820935d49bdddb93aa3f4a985bd6d21cda405d5d47b",
+ "notes": "・印刷で部数を2以上にしても1部しか出ないことがあったのを直しました（プリンターの部数設定に頼らず、Suzuki PDF Viewer が必要な枚数ぶんを並べて送るようにしました。両面印刷で用紙が奇数ページのときは、次の部が新しい用紙から始まるよう白紙を入れます）。\n・貼り付けた画像（範囲コピーして貼り付けたものも）を、好きな角度に回転できるようにしました。選んだ画像の上にある緑の丸をドラッグします（Shift を押すと15°ずつ、0°・90°の近くでは吸い付きます）。\n・貼り付けた画像の大きさを、4つの角のどこからでも変えられるようにしました（反対側の角は動きません。回転していても同じです）。\n・画像などを動かしたり大きさを変えたりするとき、ページの端・中央や、ほかの物の端・中央に合うと、青い点線のガイドが出て吸い付くようにしました（Alt を押している間は吸い付きません）。\n・画像を選ぶと出る画面上部の欄に「角度」を足しました。数字を入れると、その角度になります（0 で水平）。\n・範囲コピーを使っている間、十字カーソルのそばにカメラのマークが出るようにしました。\n・バージョン情報から「設定の保存場所」の行を外しました。"
 }
