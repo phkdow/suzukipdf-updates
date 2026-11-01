@@ -1,11 +1,11 @@
 {
  "app": "SuzukiPDF",
- "version": "2.0.14",
+ "version": "2.0.15",
  "runtimeVersion": "44.5.1",
- "file": "SuzukiPDF-2.0.14.suzukipdf-update",
- "url": "https://raw.githubusercontent.com/phkdow/suzukipdf-updates/main/updates/SuzukiPDF-2.0.14.suzukipdf-update",
+ "file": "SuzukiPDF-2.0.15.suzukipdf-update",
+ "url": "https://raw.githubusercontent.com/phkdow/suzukipdf-updates/main/updates/SuzukiPDF-2.0.15.suzukipdf-update",
  "page": "https://github.com/phkdow/suzukipdf-updates/tree/main/setup",
- "size": 11448434,
- "sha256": "02088ab7dcc93d5dfc873acaeb3137462e7425e03103bcc5033f5939b8b141bd",
- "notes": "・吹き出しの設定欄を整理しました。上の段に文字の設定（文字色・文字の大きさ・フォント・太字）、下の段に吹き出しの設定（枠と線の色・線の太さ・背景・先端・不透明度）を並べ、横幅を約3分の1にしました（各ボタンは、マウスを乗せると名前が出ます）。\n・リボンの「注釈」「編集」「ページ」タブのボタンの並びを整理し、すき間を減らしました（ボタンの種類と大きさは同じです）。「計測」と「スタンプ」は「スタンプ・計測」に、「スタンプの管理」は「管理」に、「挿入記号」は「コメント」に、「テキストボックス」は「段落・管理」に、「しおりごとに分割」は「しおり」に移りました。"
+ "size": 11448511,
+ "sha256": "ea6fd9ac6df915c3e3b3e1ee49aac700b2cd84b99bd46933585bf425c70611d0",
+ "notes": "・窓を狭くしたときも、リボンの「ページ → 並べ替え」が2つずつ2列（上へ・下へ｜先頭へ・最後へ）のまま並ぶようにしました。"
 }
